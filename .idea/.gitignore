@@ -1,3 +1,20 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# 🔒 IntelliJ project files
+.idea/
+*.iml
+
+# 🔄 Compiled output
+out/
+*.class
+
+# 🖼️ Raw assets (optional for overlays)
+*.png
+*.psd
+screenshots/
+drafts/
+
+# 💻 OS junk
+.DS_Store
+Thumbs.db
