@@ -2,7 +2,7 @@ public class absClass {
     public static void main(String[]args)
     {
         //abstract= abstraction(hiding implementation)
-        //                cant be instantiated directly i.e. cant create object for this class
+        //                 cant be instantiated directly i.e. cant create object for this class
         //                 abstract method can be created inside a abstract clas but it should be implemented
         //                 concrete methods inside a abstract class is by default inherited by classes extended from abs class
         //color c= new color() will show error becoz obj cant be created of abs class
