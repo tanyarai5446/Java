@@ -9,7 +9,7 @@ public class polymorphism {
        donkey d=new donkey();
        bull b= new bull();
 
-       //if u try to make an array of horse donkey bull like this :-
+        //if u try to make an array of horse donkey bull like this :-
         // horse[] horses={horse,donkey,bull};       shows error like horse cannot be converted to donkey  {{one shape cant be converted to another shape}}
         //similarly for others donkey[] or bull[] array
         //so we create array  of a common type in which horse,donkey and bull can come i.e. animals
