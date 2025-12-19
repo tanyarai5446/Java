@@ -8,7 +8,8 @@ public class exception {
         //                        surround any dangerous code with try{} b;ock
         //                        try{},catch{},finally{}
 
-        try(Scanner sc=new Scanner(System.in)){
+        try(Scanner sc=new Scanner(System.in))
+        {
             System.out.print("Enter a number : ");
             int num=sc.nextInt();//on typing wrong i/p we get InputMismatchException
             System.out.println(1/0);//gives arithmeticException
@@ -19,11 +20,13 @@ public class exception {
 //        catch(InputMismatchException e){
 //            System.out.println("Thats not a number");
 //        }
-        catch(Exception e){
+        catch(Exception e)
+        {
             //safety net  { professional way for all exceptions}
             System.out.println("Something went wrong");
         }
-        finally{
+        finally
+        {
             System.out.println("this always executes");
         }
     }
