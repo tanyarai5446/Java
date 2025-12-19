@@ -10,7 +10,8 @@ public class getset {
      System.out.println(c.getname()+" "+c.getcolor()+" "+c.getprice());
     }
 }
-class car{
+class car
+{
     //if you dont want a attribute to be writable add final keyword
    private  final String name;
    private String color;
