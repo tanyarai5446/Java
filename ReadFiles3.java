@@ -1,5 +1,5 @@
 import java.io.*;
-public class RandomAccessFiles {
+public class ReadFiles3 {
     public static void main(String[]args) {
         //BufferedReader=best fo reading txt files
         //FileInputStream=best for binary files(images,audio files)
