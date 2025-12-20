@@ -32,3 +32,26 @@ public class RandomAccessFiles {
         }
     }
 }
+//rw mode
+// 1. Read-only mode
+//            RandomAccessFile rafRead = new RandomAccessFile("text.txt", "r");
+//            System.out.println("Read-only mode: " + rafRead.readLine());
+//            rafRead.close();
+
+// 2. Read/Write mode
+//            RandomAccessFile rafRW = new RandomAccessFile("text.txt", "rw");
+//            rafRW.seek(rafRW.length()); // move pointer to end
+//            rafRW.writeBytes("\nAppended in rw mode");
+//            rafRW.close();
+
+// 3. Read/Write with sync metadata ->used when data integrity is critical (databases or log) (saved data to disk and metadata)
+//            RandomAccessFile rafRWS = new RandomAccessFile("text.txt", "rws");
+//            rafRWS.seek(rafRWS.length());
+//            rafRWS.writeBytes("\nAppended in rws mode");
+//            rafRWS.close();
+
+// 4. Read/Write with sync data only  -> used when data integrity (saved data to disk only not metadata)
+//            RandomAccessFile rafRWD = new RandomAccessFile("text.txt", "rwd");
+//            rafRWD.seek(rafRWD.length());
+//            rafRWD.writeBytes("\nAppended in rwd mode");
+//            rafRWD.close();
