@@ -9,8 +9,8 @@ public class WriteFiles {
         String textcontent= """
                                         roses are red
                                         violets are blue
-                                        booty booty booty
-                                        Rockin ' Everywhere!   
+                                        BOOTY BOOTY BOOTY
+                                        ROCKIN'  EVERYWHERE   
                                                                                 """;
         // by default the file gets saved in src folder
         //you can define location of file by copying the location from properties of that folder and paste before text.txt (usee//)
